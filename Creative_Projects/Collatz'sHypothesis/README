@@ -1,0 +1,3 @@
+These programs run through Collatz's hypothesis for any input number
+Then run through collatz's alogrithm and record the number of steps to reach the number 1
+The second program generates a file that records the number of steps for every integer
