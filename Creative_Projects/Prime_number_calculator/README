@@ -1,0 +1,4 @@
+The following python script calculates the prime numbers between 2 and a given number "n"
+It then saves the numbers to a list called "prime_list"
+It then calculates the distance between the recent prime number and the prior prime number
+It then saves the prime_list to a text file called "Prime_number.txt"
