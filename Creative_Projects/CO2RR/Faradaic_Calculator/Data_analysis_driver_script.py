@@ -1,8 +1,5 @@
-# PHEONIX Project Data analysis driver script
-# Forschungszentrum Juelich - Department of Theoretical Electrochemistry & Data Science
-# Part of the PHEONIX Project at IET-1
 # GOAL:
-# The following code is built for calling the other calc modules and running them in order
+# The following code is built for calling the other calculator modules and running them in the correct order
 # Code by Robert Bavisotto
 
 #___________________________________SECTION_1_____________________________________________
@@ -38,4 +35,5 @@ result_selectivity  = chemical_selectivity(Moles_CO, Moles_HCOOH)
 # Will write another module for Faradaic efficincy
 
 #___________________________________SECTION_6_____________________________________________
+
 # PROGRAM END
