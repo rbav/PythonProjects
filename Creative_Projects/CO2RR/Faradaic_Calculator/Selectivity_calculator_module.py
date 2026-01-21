@@ -1,5 +1,3 @@
-# Calculator module for Self-driving CO2RR cells
-# Forschungszentrum Juelich - Department of Theoretical Electrochemistry & Data Science
 # GOAL:
 # The following module is built for calculating the selectivity for CO during CO2RR
 # Code by Robert Bavisotto
@@ -66,4 +64,5 @@ def chemical_selectivity(Moles_CO, Moles_HCOOH):
 if errorcount >= 1:
     print("There has been a system error")
 #_________________________________________________________________________________________
+
 # *** PROGRAM END ***
