@@ -1,0 +1,6 @@
+#The following program is a simple analytical tool used to calculate various aspects during CO2RR.
+#Now: Conversion, Selectivity
+#Eventually: Faradaic Efficiency, GC baseline, GC Peak identification, GC Integration
+
+#Code by Robert Bavisotto
+#This code is only intended for education purposes
