@@ -1,7 +1,4 @@
 # Temporary calculator for proof of concept for Self-driving CO2RR cells
-# Forschungszentrum Juelich - Department of Theoretical Electrochemistry & Data Science
-# Part of the PHEONIX Project at IET-1
-# GOAL:
 # The following code is built for calculating the conversion of CO2 to CO during CO2RR
 # This program will later be converted into a module to run as a part of the SDL process
 
@@ -111,4 +108,5 @@ chemical_conversion(CO2_area, CO_area, HCOOH_area)
 print("Chemical_conversion program has finished with ", errorcount, " errors")
 
 if errorcount >= 1:
+
     print("There has been a system error")
