@@ -1,5 +1,4 @@
-# Calculator module for Self-driving CO2RR cells
-# Forschungszentrum Juelich - Department of Theoretical Electrochemistry & Data Science
+# Calculator module for CO2RR cells
 # GOAL:
 # The following code is built for calculating the conversion of CO2 to CO during CO2RR
 # Code by Robert Bavisotto
@@ -78,4 +77,5 @@ def chemical_conversion(Moles_CO2, Moles_CO, Moles_HCOOH):
 if errorcount >= 1:
     print("There has been a system error")
 #_________________________________________________________________________________________
+
 # *** PROGRAM END ***
