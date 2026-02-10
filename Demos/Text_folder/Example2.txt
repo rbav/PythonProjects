@@ -1,0 +1,2 @@
+This is line A -> writing to file example 
+This is line B

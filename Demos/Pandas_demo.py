@@ -1,7 +1,10 @@
 # Example of using Pandas, a popular library for data analysis
+# Useful for data analysis & data wrangling 
 
 import pandas as pd# gains access to a large number of pre-build classes & functions
 import datetime
+from colorama import init, Fore, Back, Style
+init(autoreset=True)
 
 pd.set_option("display.colheader_justify", "left")
 pd.set_option("display.max_colwidth", 20)
@@ -47,3 +50,22 @@ print(songs_frame2)
 
 #how to save to dataframe "songs_frame2 as a csv file
 songs_frame2. to_csv('Demos/Text_folder/new_songs.csv')
+
+print("\n\n")
+print(Fore.BLUE + Style.BRIGHT + "========= Data Wrangling Demo =========")
+print("\n")
+
+headers = ["symboling","normalized-losses","make","fuel-type","aspiration", "num-of-doors","body-style",
+         "drive-wheels","engine-location","wheel-base", "length","width","height","curb-weight","engine-type",
+         "num-of-cylinders", "engine-size","fuel-system","bore","stroke","compression-ratio","horsepower",
+         "peak-rpm","city-mpg","highway-mpg","price"]
+
+file_path = "Demos/Excel_folder/auto.csv"
+df = pd.read_csv(file_path, names = headers)
+
+print(df.head(50))
+description = df.describe()                                     # Gives some statistics on the values that show up in the chart
+print(description)
+print("\n\n")
+description2 = df["drive-wheels"].value_counts()                # Reads the drive-wheels column and counts how many of each type show up
+print(description2)
