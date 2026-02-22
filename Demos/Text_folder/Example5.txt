@@ -1,5 +1,0 @@
-This is the first line
-This is the 2nd line
-You guessed it. 3rd.
-Huh... I guess it didnt end at line 3
-Yep... thats 5...
